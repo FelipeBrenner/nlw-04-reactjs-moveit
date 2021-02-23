@@ -17,6 +17,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 - JavaScript
 - ReactJS
 - TypeScript
+- Next.js
 
 ## 💻 Projeto
 

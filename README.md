@@ -1,23 +1,32 @@
 <h1 align="center">
-    Move.it
+  <img alt="Moveit" src=".github/icon.svg" width="120px">
 </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=5965E0&labelColor=121214" alt="PRs welcome!" />
+  <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
+</p>
+
+<br>
+
+<p align="center">
+    <img alt="Move.it" title="Move.it" src=".github/moveit.svg" />
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
-- ReactJS
-- TypeScript
 - Next.js
+- React
+- TypeScript
 
 ## 💻 Projeto
 
@@ -26,6 +35,10 @@ O Move.it é uma aplicação gamificada de gerenciamento de tempo desenvolvida d
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0/duplicate). Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
 

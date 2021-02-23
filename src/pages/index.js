@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { ExperienceBar } from '../components/ExperienceBar';
+import { ExperienceBar } from '../components/ExperienceBar.tsx';
 
 export default function Home() {
   return (

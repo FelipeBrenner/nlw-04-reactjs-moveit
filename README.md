@@ -8,8 +8,6 @@
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-<br>
-
 ## 🚀 Tecnologias
 
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:

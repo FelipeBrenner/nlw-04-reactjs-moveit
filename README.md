@@ -30,7 +30,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Move.it é uma aplicação gamificada de gerenciamento de tempo desenvolvida durante a Next Level Week #04 da Rocketseat, realizada durante os dias 22 a 28 de fevereiro de 2021, que utiliza um cronômetro e a conquista de xp para incentivar a divisão de um trabalho em períodos, com pausas, conforme a técnica de pomodoro.
+O Move.it é uma aplicação gamificada de gerenciamento de tempo e prática de exercício físico desenvolvida durante a Next Level Week #04 da Rocketseat, realizada durante os dias 22 a 28 de fevereiro de 2021, que utiliza um cronômetro e a conquista de xp para incentivar a divisão de um trabalho em períodos, com pausas, conforme a técnica de pomodoro, e desafios para exercitar o corpo ou os olhos.
 
 ## 🔖 Layout
 

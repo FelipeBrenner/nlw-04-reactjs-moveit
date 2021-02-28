@@ -8,6 +8,7 @@ interface CountdownContextData {
   isActive: boolean;
   startCountdown: () => void;
   resetCountdown: () => void;
+  widthCountdown: number;
 }
 
 interface CountdownProviderProps {
@@ -22,12 +23,14 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
 
   const { startNewChallenge } = useContext(ChallengesContext)
 
-  const [time, setTime] = useState(0.1 * 60)
-  const [isActive, setIsActive] = useState(false)
-  const [hasFinished, setHasFinished] = useState(false)
+  const [time, setTime] = useState(0.1 * 60);
+  const [isActive, setIsActive] = useState(false);
+  const [hasFinished, setHasFinished] = useState(false);
 
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
+
+  const [widthCountdown, setWidthCountdown] = useState(0);
 
   function startCountdown() {
     setIsActive(true)
@@ -38,6 +41,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
     setIsActive(false);
     setTime(0.1 * 60)
     setHasFinished(false)
+    setWidthCountdown(0);
   }
 
   useEffect(() => {
@@ -49,8 +53,13 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
       setHasFinished(true)
       setIsActive(false)
       startNewChallenge()
+      setWidthCountdown(0);
     }
   }, [isActive, time])
+
+  useEffect(() => {
+    setWidthCountdown(100 - time * 100 / (0.1 * 60));
+  }, [seconds])
 
   return (
     <CountdownContext.Provider value={{
@@ -59,7 +68,8 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
       hasFinished,
       isActive,
       startCountdown,
-      resetCountdown
+      resetCountdown,
+      widthCountdown
     }}>
       { children}
     </CountdownContext.Provider>

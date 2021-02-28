@@ -63,6 +63,10 @@
     justify-content: center;
 }
 
+.challengeActive main img {
+    position: relative;
+}
+
 .challengeActive main strong {
     font-size: 2rem;
     font-weight: 600;
@@ -74,6 +78,7 @@
     line-height: 1.5;
     font-weight: 200;
     font-size: 1rem;
+    margin: 0 0 3.5rem 0;
 }
 
 .challengeActive footer {
@@ -106,12 +111,16 @@
     color: var(--red);
     border-radius: 0px 0px 0px 5px;
     border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
 }
 
 .challengeActive footer button.challengeSucceededButton {
     background: #f7fff5;
     color: #3fb023;
     border-radius: 0px 0px 5px 0px;
+    border-right: 0;
+    border-bottom: 0;
 }
 
 .challengeActive footer button.challengeFailedButton:hover {

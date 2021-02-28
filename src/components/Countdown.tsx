@@ -12,7 +12,8 @@ export function Countdown() {
     hasFinished,
     isActive,
     startCountdown,
-    resetCountdown
+    resetCountdown,
+    widthCountdown
   } = useContext(CountdownContext);
 
   const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('')
@@ -38,6 +39,8 @@ export function Countdown() {
           className={styles.countdownButton}
         >
           Ciclo encerrado
+          <img src={"icons/check-circle.svg"} alt="check-circle" />
+          <div />
         </button>
       ) : (
           <>
@@ -48,6 +51,8 @@ export function Countdown() {
                 onClick={resetCountdown}
               >
                 Abandonar ciclo
+                <img src={"icons/close.svg"} alt="close" />
+                <div style={{ width: `${widthCountdown}%` }} />
               </button>
             ) : (
                 <button
@@ -56,6 +61,7 @@ export function Countdown() {
                   onClick={startCountdown}
                 >
                   Iniciar um ciclo
+                  <img src={"icons/play.svg"} alt="play" />
                 </button>
               )}
           </>

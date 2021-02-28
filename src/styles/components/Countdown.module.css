@@ -56,10 +56,31 @@
   font-weight: 600;
 
   transition: background-color 0.2s;
+  position: relative;
+}
+
+.countdownButton img {
+  padding-left: 1rem;
+}
+
+.countdownButton div {
+  position: absolute;
+  height: 4px;
+  background: var(--green);
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  max-width: 100%;
 }
 
 .countdownButton:not(:disabled):hover {
   background: var(--blue-dark);
+}
+
+.countdownButton:not(:disabled):hover img {
+  filter: brightness(0) invert(1);
 }
 
 .countdownButtonActive {

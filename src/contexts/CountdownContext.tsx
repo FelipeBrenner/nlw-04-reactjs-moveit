@@ -23,7 +23,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
 
   const { startNewChallenge } = useContext(ChallengesContext)
 
-  const [time, setTime] = useState(0.1 * 60);
+  const [time, setTime] = useState(25 * 60);
   const [isActive, setIsActive] = useState(false);
   const [hasFinished, setHasFinished] = useState(false);
 
@@ -39,7 +39,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   function resetCountdown() {
     clearTimeout(countdownTimeout);
     setIsActive(false);
-    setTime(0.1 * 60)
+    setTime(25 * 60)
     setHasFinished(false)
     setWidthCountdown(0);
   }
@@ -58,7 +58,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   }, [isActive, time])
 
   useEffect(() => {
-    setWidthCountdown(100 - time * 100 / (0.1 * 60));
+    setWidthCountdown(100 - time * 100 / (25 * 60));
   }, [seconds])
 
   return (

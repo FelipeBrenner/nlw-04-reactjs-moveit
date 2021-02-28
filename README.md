@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Moveit" src=".github/icon.svg" width="120px">
+  <img alt="move.it" title="move.it" src=".github/logo.png" />
 </h1>
 
 <p align="center">
@@ -17,24 +17,24 @@
 <br>
 
 <p align="center">
-    <img alt="Move.it" title="Move.it" src=".github/moveit.svg" />
+    <img alt="move.it" src=".github/moveit.png" width="100%" />
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
-- Next.js
 - ReactJS
+- Next.js
 - TypeScript
 
 ## 💻 Projeto
 
-O Move.it é uma aplicação gamificada de gerenciamento de tempo e prática de exercício físico desenvolvida durante a Next Level Week #04 da Rocketseat, realizada durante os dias 22 a 28 de fevereiro de 2021, que utiliza um cronômetro e a conquista de xp para incentivar a divisão de um trabalho em períodos, com pausas, conforme a técnica de pomodoro, e desafios para exercitar o corpo ou os olhos.
+O Move.it é uma aplicação desenvolvida durante a Next Level Week #04, na trilha de ReactJS, da Rocketseat, realizada durante os dias 22 a 28 de fevereiro de 2021, que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0/duplicate). Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0). Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
 ## 📝 Licença
 
